@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="管理">
+            <menu>
+                <item
+                    android:id="@+id/add_account_password_menu"
+                    android:icon="@drawable/add_white_50px"
+                    android:title="添加帐号和密码" />
+                <item
+                    android:id="@+id/change_email_address"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="修改邮箱账号" />
+                <item
+                    android:id="@+id/change_login_password"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="修改应用密码" />
+            </menu>
+        </item>
+    </group>
+
+    <item android:title="工具">
+        <menu>
+            <item
+                android:id="@+id/import_info_menu"
+                android:icon="@drawable/ic_menu_send"
+                android:title="导入" />
+            <item
+                android:id="@+id/export_info_menu"
+                android:icon="@drawable/ic_menu_send"
+                android:title="导出" />
+            <item
+                android:visible="false"
+                android:id="@+id/test_menu_item"
+                android:icon="@drawable/red_full_star"
+                android:title="测试"/>
+        </menu>
+    </item>
+
+</menu>

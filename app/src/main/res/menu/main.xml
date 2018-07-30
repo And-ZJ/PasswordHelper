@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/refresh_btn"
+        android:orderInCategory="8"
+        android:title="刷新"
+        android:icon="@drawable/refresh_btn_selector_50px"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/close_btn"
+        android:orderInCategory="8"
+        android:title="关闭"
+        android:icon="@drawable/close_btn_selector_50px"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/search_btn"
+        android:orderInCategory="5"
+        android:title="搜索"
+        android:icon="@drawable/search_btn_selector_50px"
+        app:showAsAction="always"/>
+</menu>
